@@ -7,22 +7,15 @@ class TravellingSalesMan{
     public static void main(String args[]){
         TravellingSalesMan travellingSalesPerson = new TravellingSalesMan(
                 new int[][] {
-                        {0,3,5,0},
-                        {3,0,4,0},
-                        {5,4,0,0},
-                        {0,0,0,0},
+                        {0, 10, 15, 20},
+                        {10, 0, 35, 25},
+                        {15, 35, 0, 30},
+                        {20, 25, 30, 0}
                 }
         );
 
         travellingSalesPerson.findPath();
     }
-
-
-
-
-
-
-
 
     int[][] graph;
 
@@ -57,56 +50,39 @@ class TravellingSalesMan{
     }
 
 
+
+
+
     private ArrayList totalDistance(ArrayList<Integer> remaining, int from){                                       //return the list of (distance and list of path)
 
 
         if(remaining.size() == 2){
             ArrayList mid = new ArrayList();
 
+            if(!(graph[remaining.get(0)][remaining.get(1)] == 0||(graph[remaining.get(0)][0] == 0 && graph[remaining.get(1)][0] == 0)||(graph[from][remaining.get(0)] == 0 && graph[from][remaining.get(1)] == 0))){
+                if(graph[from][remaining.get(0)] == 0 || graph[remaining.get(1)][0] == 0){
+                    mid.add(graph[from][remaining.get(1)] + graph[remaining.get(0)][0] + graph[remaining.get(1)][remaining.get(0)]);
+                    mid.add( new ArrayList<Integer>(Arrays.asList(from,remaining.get(1),remaining.get(0), 0)));
 
-            if(graph[remaining.get(0)][remaining.get(1)] == 0||(graph[remaining.get(0)][0] == 0 && graph[remaining.get(1)][0] == 0)||(graph[from][remaining.get(0)] == 0 && graph[from][remaining.get(1)] == 0)){
+                }
+                else if(graph[from][remaining.get(1)] == 0 || graph[remaining.get(0)][0] == 0){
+                    mid.add(graph[from][remaining.get(0)] + graph[remaining.get(1)][0] + graph[remaining.get(1)][remaining.get(0)]);
+                    mid.add(new ArrayList<Integer>(Arrays.asList(from,remaining.get(0),remaining.get(1), 0)));
 
+                }
+                else if(graph[from][remaining.get(0)]+graph[remaining.get(1)][0] > graph[from][remaining.get(1)] +graph[remaining.get(0)][0]){
+                    mid.add(graph[from][remaining.get(1)] + graph[remaining.get(0)][0] + graph[remaining.get(1)][remaining.get(0)]);       //adding the distance
+                    mid.add(new ArrayList<Integer>(Arrays.asList(from,remaining.get(1),remaining.get(0), 0)));         //adding the path
 
+                }
+                else {
+                    mid.add(graph[from][remaining.get(0)] + graph[remaining.get(1)][0]+ graph[remaining.get(1)][remaining.get(0)]);
+                    mid.add(new ArrayList<Integer>(Arrays.asList(from,remaining.get(0),remaining.get(1), 0)));
+                }
+            }
+            else {
                 mid.add(-1);
-                return mid;
             }
-            else if(graph[from][remaining.get(0)] == 0 || graph[remaining.get(1)][0] == 0){
-                mid.add(graph[from][remaining.get(1)] + graph[remaining.get(0)][0] + graph[remaining.get(1)][remaining.get(0)]);
-                mid.add( new ArrayList<Integer>(Arrays.asList(from,remaining.get(1),remaining.get(0), 0)));
-
-
-                return mid;
-            }
-            else if(graph[from][remaining.get(1)] == 0 || graph[remaining.get(0)][0] == 0){
-                mid.add(graph[from][remaining.get(0)] + graph[remaining.get(1)][0] + graph[remaining.get(1)][remaining.get(0)]);
-                mid.add(new ArrayList<Integer>(Arrays.asList(from,remaining.get(0),remaining.get(1), 0)));
-
-
-
-
-                return mid;
-            }
-
-
-            else if(graph[from][remaining.get(0)]+graph[remaining.get(1)][0] > graph[from][remaining.get(1)] +graph[remaining.get(0)][0]){
-                mid.add(graph[from][remaining.get(1)] + graph[remaining.get(0)][0] + graph[remaining.get(1)][remaining.get(0)]);       //adding the distance
-                mid.add(new ArrayList<Integer>(Arrays.asList(from,remaining.get(1),remaining.get(0), 0)));         //adding the path
-
-
-
-
-                return mid;
-
-            }
-
-
-
-            mid.add(graph[from][remaining.get(0)] + graph[remaining.get(1)][0]+ graph[remaining.get(1)][remaining.get(0)]);
-            mid.add(new ArrayList<Integer>(Arrays.asList(from,remaining.get(0),remaining.get(1), 0)));
-
-
-
-
             return mid;
         }
 
@@ -114,22 +90,15 @@ class TravellingSalesMan{
         int fromDist = 0;
         ArrayList finalMid = null;
 
-
-
-
         for(int i : remaining){
-
             ArrayList<Integer> newRemaining = new ArrayList<>();
-
             for(int j : remaining){
                 if(i!=j){
                     newRemaining.add(j);
                 }
             }
 
-
-
-            ArrayList mid = totalDistance(newRemaining, i);
+            ArrayList mid = totalDistance(newRemaining, i);              //imp
 
             if((int)mid.get(0)!=-1 && ((int)mid.get(0) + graph[from][i])< newDist && graph[from][i]!=0){              //if not equals -1 i.e no path break and also smaller
                 fromDist = graph[from][i];
@@ -150,9 +119,6 @@ class TravellingSalesMan{
         resultPath.addAll((ArrayList)finalMid.get(1));
         resultMid.add(resultPath);
 
-
         return resultMid;
     }
-
-
 }
