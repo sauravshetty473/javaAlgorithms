@@ -1,57 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eab8105-987a-44dc-b08f-30ac9dd011de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NQueensBackTracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfSubsetsBackTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6eab8105-987a-44dc-b08f-30ac9dd011de" name="Default Changelist" comment="meh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/Djikstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/Djikstra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/FractionalKnapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/FractionalKnapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/MinMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/Points.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/Points.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/PriorityStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/PriorityStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/TravellingSalesMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/TravellingSalesMan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Comp2s.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Comp2s.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Nstoring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Nstoring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/RightShift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/RightShift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Storing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Storing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/b2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/b2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/booths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/booths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/d2b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/d2b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/SumOfSubsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/TravellingSalesMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/Comp2s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/Nstoring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/RightShift.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/Storing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/b2d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/booths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/booths/d2b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/NQueensBackTracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/NQueensBackTracking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsetsBackTracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsetsBackTracking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NQueensBackTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NQueensBackTracking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +36,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -103,7 +56,7 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-16.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-16.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="javaAlgorithms" />
       <method v="2">
@@ -120,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1619775483227</updated>
     </task>
+    <task id="LOCAL-00001" summary="meh">
+      <created>1619786004741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619786004741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,47 +95,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619810634922">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1619810634922" />
-    <state x="689" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1619808432498">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="689" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1619808432498" />
-    <state width="1877" height="386" key="GridCell.Tab.0.bottom" timestamp="1619816980670">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1619816980670" />
-    <state width="1877" height="386" key="GridCell.Tab.0.center" timestamp="1619816980670">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1619816980670" />
-    <state width="1877" height="386" key="GridCell.Tab.0.left" timestamp="1619816980670">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1619816980670" />
-    <state width="1877" height="386" key="GridCell.Tab.0.right" timestamp="1619816980670">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="386" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1619816980670" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1619816186825">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1619816186825" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1619816186825">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1619816186825" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1619816186825">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1619816186825" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1619816186825">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1619816186825" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="meh" />
+    <option name="LAST_COMMIT_MESSAGE" value="meh" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

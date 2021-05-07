@@ -5,36 +5,27 @@ public class NQueensBackTracking {
     ArrayList<int[]> outputSets = new ArrayList();                              //column number is the index and corresponding row number, in which its present
 
     int Number;
-    Boolean[] state;
-
 
     public static void main(String args[]){
 
-        NQueensBackTracking nQueensBackTracking = new NQueensBackTracking(4);
+        NQueensBackTracking nQueensBackTracking = new NQueensBackTracking(8);
 
         nQueensBackTracking.decide(new int[nQueensBackTracking.Number], -1, -1);
 
+        System.out.println("The size of set is : " +nQueensBackTracking.outputSets.size());
         for (int[] i: nQueensBackTracking.outputSets) {
             System.out.println(Arrays.toString(i));
         }
     }
 
-
-
-
     NQueensBackTracking(int Number){
         this.Number = Number;
     }
 
-
     private Boolean BoundingFunction(int[] columnOccupant, int currentColumn, int currentRow){
 
         for(int i = 0 ; i< currentColumn ; i++){
-            if(columnOccupant[i] == currentRow){         //row and column matching
-                return false;
-            }
-
-            if(Math.abs(columnOccupant[i] - currentRow) == Math.abs(currentColumn - i)){
+            if (columnOccupant[i] == currentRow || Math.abs(columnOccupant[i] - currentRow) == Math.abs(currentColumn - i)) {         //row and column matching
                 return false;
             }
         }
@@ -43,7 +34,6 @@ public class NQueensBackTracking {
 
 
     private void decide(int[] columnOccupant, int currentColumn, int currentRow){
-
         if(currentColumn == -1){
             int[] mid = new int[this.Number];
 
@@ -52,29 +42,25 @@ public class NQueensBackTracking {
             }
             return;
         }
+        else {
+            Boolean decision = BoundingFunction(columnOccupant.clone(), currentColumn, currentRow);
+            if(decision){
+                if(currentColumn+1==Number){
+                    int[] mid = columnOccupant.clone();
+                    mid[currentColumn] = currentRow;
 
-        Boolean decision = BoundingFunction(columnOccupant.clone(), currentColumn, currentRow);
+                    outputSets.add(mid.clone());
+                }
+                else {
+                    for(int i = 0 ; i < Number ; i++){
+                        int[] mid = columnOccupant.clone();
+                        mid[currentColumn] = currentRow;
 
-        if(currentRow == Number-1 && currentColumn == Number-1)
-            return;
+                        decide(mid, currentColumn+1, i);
+                    }
+                }
+            }
 
-        if(decision&&currentColumn!=Number-1){
-            int[] mid = columnOccupant.clone();
-            mid[currentColumn] = currentRow;
-
-            decide(mid, currentColumn+1, 0);
-        }
-        else if(!decision&&currentRow!=Number-1){
-            int[] mid = columnOccupant.clone();
-            mid[currentColumn] = currentRow;
-
-            decide(mid, currentColumn, currentRow+1);
-        }
-        else if(decision&&currentColumn==Number-1){
-            int[] mid = columnOccupant.clone();
-            mid[currentColumn] = currentRow;
-
-            outputSets.add(mid.clone());
         }
     }
 
