@@ -34,34 +34,23 @@ public class NQueensBackTracking {
 
 
     private void decide(int[] columnOccupant, int currentColumn, int currentRow){
-        if(currentColumn == -1){
-            int[] mid = new int[this.Number];
+        Boolean decision = currentColumn == -1 || BoundingFunction(columnOccupant.clone(), currentColumn, currentRow);
+        if(decision){
+            if(currentColumn+1==Number){
+                int[] mid = columnOccupant.clone();
+                mid[currentColumn] = currentRow;
 
-            for(int i = 0 ; i<this.Number ; i++){
-                decide(mid.clone(),0,i);
+                outputSets.add(mid.clone());
             }
-            return;
-        }
-        else {
-            Boolean decision = BoundingFunction(columnOccupant.clone(), currentColumn, currentRow);
-            if(decision){
-                if(currentColumn+1==Number){
+            else {
+                for(int i = 0 ; i < Number ; i++){
                     int[] mid = columnOccupant.clone();
-                    mid[currentColumn] = currentRow;
-
-                    outputSets.add(mid.clone());
-                }
-                else {
-                    for(int i = 0 ; i < Number ; i++){
-                        int[] mid = columnOccupant.clone();
+                    if( currentColumn != -1){
                         mid[currentColumn] = currentRow;
-
-                        decide(mid, currentColumn+1, i);
                     }
+                    decide(mid, currentColumn+1, i);
                 }
             }
-
         }
     }
-
 }

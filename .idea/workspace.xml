@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6eab8105-987a-44dc-b08f-30ac9dd011de" name="Default Changelist" comment="meh">
+      <change afterPath="$PROJECT_DIR$/src/AllPairShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Geometry2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/GanttChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/Padding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/bankers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/producer_consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/reader_writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/round_robin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OSSS/shortest_job_first.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file_task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/Djikstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/Djikstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/FractionalKnapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/FractionalKnapsack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/MinMax.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/NQueensBackTracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/NQueensBackTracking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsetsBackTracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsetsBackTracking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/Points.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/Points.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/PriorityStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/PriorityStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/SumOfSubsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/TravellingSalesMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/TravellingSalesMan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Comp2s.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Comp2s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Nstoring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Nstoring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/RightShift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/RightShift.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Storing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/Storing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/b2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/b2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/booths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/booths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/d2b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaAlgorithms/booths/d2b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/impFiles/Screenshot 2021-04-30 222742.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/impFiles/Screenshot 2021-04-30 222927.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/impFiles/Screenshot 2021-04-30 223117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/impFiles/Screenshot 2021-04-30 223203.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/impFiles/Screenshot 2021-04-30 223225.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/impFiles/Screenshot 2021-04-30 223345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaAlgorithms/impFiles/Screenshot 2021-04-30 223418.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NQueensBackTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NQueensBackTracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impFiles/Screenshot 2021-04-30 222742.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impFiles/Screenshot 2021-04-30 222927.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impFiles/Screenshot 2021-04-30 223117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impFiles/Screenshot 2021-04-30 223203.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impFiles/Screenshot 2021-04-30 223225.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impFiles/Screenshot 2021-04-30 223345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impFiles/Screenshot 2021-04-30 223418.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +75,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1rsr8KzWKIboorSizupngk0BPzc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,20 +94,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\javaIntelliJ\javaAlgorithms\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\javaIntelliJ\javaAlgorithms\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="NQueensBackTracking" />
+      <option name="MAIN_CLASS_NAME" value="OSSS.Test" />
       <module name="javaAlgorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
