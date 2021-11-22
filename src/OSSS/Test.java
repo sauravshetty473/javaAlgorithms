@@ -7,8 +7,10 @@ public class Test {
         //runRoundRobin();
         //runBankers();
         //runPhilosopher();
-        //runProducerConsumer();
-        runReaderWriter();
+        runProducerConsumer();
+        //runReaderWriter();
+
+        //runPriority(true);
     }
 
     static void runReaderWriter(){
@@ -34,7 +36,7 @@ public class Test {
         processes.add(new Process(){
             {
                 process_id = 1;
-                arrival_time = 0;
+                arrival_time = 2;
                 burst_time = 10;
                 const_burst_time = 10;
             }
@@ -42,7 +44,7 @@ public class Test {
         processes.add(new Process(){
             {
                 process_id = 2;
-                arrival_time = 0;
+                arrival_time = 1;
                 burst_time = 5;
                 const_burst_time = 5;
             }
@@ -50,7 +52,7 @@ public class Test {
         processes.add(new Process(){
             {
                 process_id = 3;
-                arrival_time = 0;
+                arrival_time = 5;
                 burst_time = 8;
                 const_burst_time = 8;
             }
@@ -74,24 +76,24 @@ public class Test {
             {
                 process_id = 1;
                 arrival_time = 2;
-                burst_time = 2;
-                const_burst_time = 10;
-            }
-        });
-        processes.add(new Process(){
-            {
-                process_id = 2;
-                arrival_time = 0;
                 burst_time = 5;
                 const_burst_time = 5;
             }
         });
         processes.add(new Process(){
             {
-                process_id = 3;
+                process_id = 2;
                 arrival_time = 0;
-                burst_time = 8;
-                const_burst_time = 8;
+                burst_time = 10;
+                const_burst_time = 10;
+            }
+        });
+        processes.add(new Process(){
+            {
+                process_id = 3;
+                arrival_time = 3;
+                burst_time = 1;
+                const_burst_time = 1;
             }
         });
 

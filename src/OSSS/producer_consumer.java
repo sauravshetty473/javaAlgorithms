@@ -13,8 +13,9 @@ class ProducerConsumer{
 
         ArrayList<String> bucket = new ArrayList<>();
         public Semaphore mutex = new Semaphore(1);
-        public void access(){
+        public void access(String name){
             try {
+                System.out.println(name + " is trying to acquire bucket");
                 mutex.acquire();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -54,7 +55,7 @@ class ProducerConsumer{
         public void run() {
 
             while (true){
-                bucketList.access();
+                bucketList.access("Producer");
 
                 try {
                     produce();
@@ -99,7 +100,7 @@ class ProducerConsumer{
         @Override
         public void run() {
             while (true){
-                bucketList.access();
+                bucketList.access("Consumer");
                 try {
                     consume();
                 } catch (InterruptedException e) {

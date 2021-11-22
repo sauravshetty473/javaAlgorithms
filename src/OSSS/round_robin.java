@@ -38,7 +38,7 @@ class RoundRobin    //Pre emptive
 
 
             if(readyQueue.size() == 0) {
-                timer += quantum;
+                timer += 1;
                 ganttChart.ganttMids.add(new GanttMids("CPU", timer));
                 continue;
             }

@@ -42,7 +42,10 @@ class ReaderWriter{
         void read(){
             try {
                 file.reads.acquire();
-                while (file.writes.availablePermits()>0){}     // cannot read when a writer is writing
+                while (file.writes.availablePermits()>0){
+                    System.out.println(name + " Cannot read, someone is writing !!");
+                    Thread.sleep(400);
+                }     // cannot read when a writer is writing
                 var mid = new Random().nextInt(500);
                 System.out.println(name + " is Reading !! for " + mid + " seconds");
                 Thread.sleep(mid);
@@ -90,7 +93,10 @@ class ReaderWriter{
             try {
                 file.writes.acquire();        // only one writer can write at a time
                 var mid = new Random().nextInt(500);
-                while(file.reads.availablePermits()!=10){}    //if at least one reader is reading, writer cannot write
+                while(file.reads.availablePermits()!=10){
+                    System.out.println(name + " Cannot write, someone is reading !!");
+                    Thread.sleep(400);
+                }    //if at least one reader is reading, writer cannot write
                 System.out.println(name + " is Writing !! for " + mid + " seconds");
                 Thread.sleep(mid);
 
